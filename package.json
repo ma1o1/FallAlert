@@ -6,12 +6,12 @@
 },
 
 
-  "name": "chat-example",
+  "name": "fall-alert",
   "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "description": "Server for fall alert",
   "main": "app.js",
   "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "author": "4 potatoes on a raft <matevz.peternel@yahoo.com>",
   "dependencies": {
     "async": "~0.2.8",
     "express": "~3.2.4",
