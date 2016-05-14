@@ -8,7 +8,7 @@ var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
  
 //We need a function which handles requests and send response
 function handleRequest(request, response){
-    response.end('It Works!! Path Hit: ' + request.url);
+    response.end('It Works!! Path Hit: sprememba ' + request.url);
     
     if(request.url=='/burek'){
         console.log("Request handler random was called.");
